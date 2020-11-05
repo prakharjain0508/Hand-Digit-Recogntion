@@ -4,10 +4,11 @@ Implemented Hand digit recognition using fully-connected feed-forward neural net
 
 ## How to run the code?
 
-1. To run Fully-connected Feed-forward Neural Network, change "mode = 0"
-2. To run Convolutional Neural Network, change "mode = 1"
-3. To change activation function, change "activation='relu'" to "activation='tanh'" and vice-versa
-4. To change error function, change "loss='categorical_crossentropy'" to "loss='mean_squared_error'" and vice-versa
+1. You should have Keras installed on your local machine.
+2. To run Fully-connected Feed-forward Neural Network, change "mode = 0"
+3. To run Convolutional Neural Network, change "mode = 1"
+4. To change activation function, change "activation='relu'" to "activation='tanh'" and vice-versa
+5. To change error function, change "loss='categorical_crossentropy'" to "loss='mean_squared_error'" and vice-versa
 
 ## Results
 
