@@ -2,9 +2,16 @@
 
 Implemented Hand digit recognition using fully-connected feed-forward neural networks and convolutional networks (CNNs). Experimented with two different error functions; Sum-of-squares error function and Cross-entropy error function. Also, tried out two different hidden units; ReLU and tanh. 
 
+## How to run the code?
+
+1. To run Fully-connected Feed-forward Neural Network, change "mode = 0"
+2. To run Convolutional Neural Network, change "mode = 1"
+3. To change activation function, change "activation='relu'" to "activation='tanh'" and vice-versa
+4. To change error function, change "loss='categorical_crossentropy'" to "loss='mean_squared_error'" and vice-versa
+
 ## Results
 
-### Fully Connected Feed-forward Neural Network
+### Fully-connected Feed-forward Neural Network
 
 #### Sum-of-squares Error Function VS. Cross-entropy Error Function
 | Configuration | Results |
