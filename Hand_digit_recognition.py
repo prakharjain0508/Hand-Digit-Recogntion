@@ -89,8 +89,7 @@ if(mode == 0):
     #print(train_class_count)
     for i in range (0,10):
         train_sum = train_sum + len(train_wrong_pred[i])
-    #print(train_sum)
-    #print((3058-train_sum)/3058)
+        
     print("\nClass Accuracy: ")
     for i in range(0,10):
         print("Class " + str(i) + " : ",end="")
@@ -125,8 +124,7 @@ if(mode == 0):
     #print(test_class_count)
     for i in range (0,10):
         test_sum = test_sum + len(test_wrong_pred[i])
-    #print(test_sum)
-    #print((1797-test_sum)/1797)
+        
     print("\nClass Accuracy: ")
     for i in range(0,10):
         print("Class " + str(i) + " : ",end="")
@@ -198,8 +196,7 @@ if(mode == 1):
     #print(train_class_count)
     for i in range (0,10):
         train_sum = train_sum + len(train_wrong_pred[i])
-    #print(train_sum)
-    #print((3058-train_sum)/3058)
+
     print("\nClass Accuracy: ")
     for i in range(0,10):
         print("Class " + str(i) + " : ",end="")
@@ -234,8 +231,7 @@ if(mode == 1):
     #print(test_class_count)
     for i in range (0,10):
         test_sum = test_sum + len(test_wrong_pred[i])
-    #print(test_sum)
-    #print((1797-test_sum)/1797)
+
     print("\nClass Accuracy: ")
     for i in range(0,10):
         print("Class " + str(i) + " : ",end="")
